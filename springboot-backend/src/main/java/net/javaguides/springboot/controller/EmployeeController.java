@@ -22,7 +22,7 @@ import net.javaguides.springboot.model.Employee;
 import net.javaguides.springboot.repository.EmployeeRepository;
 
 @RestController
-@CrossOrigin(origins = "https://angular-frontend-heroku.herokuapp.com/")
+@CrossOrigin(origins ="https://angular-frontend-heroku.herokuapp.com")
 
 @RequestMapping("/api/v1")
 public class EmployeeController {
